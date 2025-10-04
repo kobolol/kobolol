@@ -1,5 +1,5 @@
 # 💫 About Me:
-⏲️ 18<br>C# / ASP.NET<br>JS / VUE
+⏰ 18<br>🧑‍💻 C# / ASP.NET<br>👨‍💻 JS / VUE
 
 
 ## 🌐 Socials:
