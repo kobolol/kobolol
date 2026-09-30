@@ -1,0 +1,43 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # ~03:00/04:00 German time
+  push:
+    branches: [main]
+    paths-ignore: [assets/**, profile-3d-contrib/**]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate SVGs and README
+        run: node scripts/generate.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Generate 3D contribution city
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "chore: refresh profile [skip ci]"; then
+            git push
+          fi

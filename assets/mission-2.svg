@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="160" viewBox="0 0 490 160" fill="none" role="img" aria-label="DoubleSnake: Snake aber zu zweit!">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060818"/><stop offset="1" stop-color="#161140"/></linearGradient>
+<linearGradient id="txt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#a78bfa"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+<clipPath id="round"><rect width="490" height="160" rx="14"/></clipPath>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+<radialGradient id="shade" cx=".3" cy=".25" r="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".5"/></radialGradient>
+</defs>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', monospace}
+.tw{animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+
+</style>
+<g clip-path="url(#round)">
+<rect width="490" height="160" fill="url(#bg)"/>
+<ellipse cx="420" cy="20" rx="140" ry="60" fill="#67e8f9" opacity="0.18" filter="url(#blur)"/>
+<g><circle cx="450.6" cy="114.6" r="0.4" fill="#ffffff" opacity="0.3"/><circle cx="466.4" cy="81.5" r="0.4" fill="#fbcfe8" opacity="0.5"/><circle class="tw" cx="185.3" cy="132.5" r="0.8" fill="#ffffff" style="animation-duration:5.5s;animation-delay:-0.4s"/><circle cx="1" cy="68.3" r="0.4" fill="#fbcfe8" opacity="0.6"/><circle class="tw" cx="122.2" cy="66.7" r="0.9" fill="#ffffff" style="animation-duration:5.8s;animation-delay:-2.3s"/><circle cx="275.7" cy="133.4" r="0.8" fill="#a5f3fc" opacity="0.3"/><circle class="tw" cx="475.1" cy="124.8" r="0.7" fill="#ffffff" style="animation-duration:2.5s;animation-delay:-1.5s"/><circle cx="423.5" cy="101.9" r="0.4" fill="#c7d2fe" opacity="0.3"/><circle cx="56.3" cy="155.9" r="0.4" fill="#c7d2fe" opacity="0.3"/><circle cx="251.6" cy="151.4" r="0.4" fill="#ffffff" opacity="0.4"/><circle class="tw" cx="450.8" cy="41.5" r="0.9" fill="#ffffff" style="animation-duration:2.9s;animation-delay:-2.4s"/><circle cx="68.7" cy="71.3" r="0.4" fill="#ffffff" opacity="0.5"/><circle cx="466.6" cy="159.4" r="0.8" fill="#ffffff" opacity="0.8"/><circle cx="360.8" cy="147.2" r="0.5" fill="#c7d2fe" opacity="0.7"/><circle class="tw" cx="448.3" cy="83.8" r="0.4" fill="#a5f3fc" style="animation-duration:5.7s;animation-delay:-5.3s"/><circle cx="161.3" cy="132.5" r="0.9" fill="#fbcfe8" opacity="0.4"/><circle class="tw" cx="203.2" cy="130.8" r="1.4" fill="#c7d2fe" style="animation-duration:5s;animation-delay:-0.8s"/><circle cx="189" cy="145.4" r="0.5" fill="#fbcfe8" opacity="0.5"/><circle class="tw" cx="325" cy="7.6" r="0.5" fill="#ffffff" style="animation-duration:3.5s;animation-delay:-2.6s"/><circle cx="176.1" cy="112.8" r="0.4" fill="#ffffff" opacity="0.5"/><circle cx="167.3" cy="81.4" r="0.4" fill="#ffffff" opacity="0.3"/><circle cx="323.4" cy="16.1" r="0.9" fill="#ffffff" opacity="0.4"/><circle cx="214.1" cy="0.7" r="0.6" fill="#ffffff" opacity="0.5"/><circle class="tw" cx="93.4" cy="130.5" r="0.4" fill="#a5f3fc" style="animation-duration:4.9s;animation-delay:-2.8s"/><circle cx="466.4" cy="32.4" r="0.4" fill="#c7d2fe" opacity="0.4"/><circle cx="250.8" cy="99.3" r="1.4" fill="#c7d2fe" opacity="0.8"/><circle cx="337.8" cy="15.5" r="1" fill="#ffffff" opacity="0.4"/><circle cx="80.4" cy="132.4" r="1" fill="#fbcfe8" opacity="0.5"/><circle class="tw" cx="461.4" cy="23" r="0.7" fill="#ffffff" style="animation-duration:2.5s;animation-delay:-0.3s"/><circle cx="264.6" cy="124.7" r="0.5" fill="#a5f3fc" opacity="0.7"/></g>
+
+<g transform="translate(66 78)">
+  <circle r="46" fill="#67e8f9" opacity=".22" filter="url(#glow)"/>
+  <circle r="30" fill="#67e8f9"/>
+  <circle r="30" fill="url(#shade)"/>
+  <ellipse rx="44" ry="10" stroke="#67e8f9" stroke-opacity=".6" stroke-width="2" transform="rotate(-20)"/>
+  <g><animateMotion dur="7s" repeatCount="indefinite" path="M44 0A44 16 0 1 1 -44 0A44 16 0 1 1 44 0"/><circle r="3.5" fill="#fff"/></g>
+</g>
+<text class="mono" x="464" y="32" text-anchor="end" font-size="10" fill="#8e93cc" letter-spacing="2">MISSION 02</text>
+<text class="sans" x="132" y="56" font-size="22" font-weight="700" fill="#eef0ff">DoubleSnake</text>
+<text class="sans" x="132" y="82" font-size="13.5" fill="#8e93cc">Snake aber zu zweit!</text>
+<g class="mono" font-size="12" fill="#eef0ff">
+  <circle cx="137" cy="133" r="5" fill="#67e8f9"/><text x="148" y="137">JavaScript</text>
+  <text x="231" y="137" fill="#fcd34d">★ 1</text>
+  <text x="464" y="137" text-anchor="end" fill="#8e93cc">last contact 2026-06-27</text>
+</g>
+</g>
+<rect x=".5" y=".5" width="489" height="159" rx="14" stroke="#2b2e66"/>
+</svg>

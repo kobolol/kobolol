@@ -1,18 +1,29 @@
-# 💫 About Me:
-⏰ 18<br>🧑‍💻 C# / ASP.NET<br>👨‍💻 JS / VUE
+<div align="center">
 
+<img src="assets/banner.svg" width="100%" alt="Hi, I'm Jonas (@kobolol), apprentice software developer based in Germany" />
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/agione) 
+<p>
+🛰️ <b>Apprentice Software Developer</b> (Fachinformatiker für Anwendungsentwicklung) · 🇩🇪 Germany<br />
+Building backends with <b>C# / ASP.NET</b> and frontends with <b>Svelte / SvelteKit</b>.
+</p>
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=kobolol&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=kobolol&theme=github_dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kobolol&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<img src="assets/stack.svg" width="100%" alt="Tech orbit: C#, ASP.NET, .NET, JavaScript, Svelte, SvelteKit" />
 
----
-[![](https://visitcount.itsvg.in/api?id=kobolol&icon=0&color=0)](https://visitcount.itsvg.in)
+<img src="assets/transmission.svg" width="100%" alt="Latest GitHub activity" />
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- MISSIONS:START -->
+<a href="https://github.com/kobolol/ProfileApi"><img src="assets/mission-1.svg" width="49%" alt="ProfileApi" /></a>
+<a href="https://github.com/kobolol/DoubleSnake"><img src="assets/mission-2.svg" width="49%" alt="DoubleSnake" /></a>
+<!-- MISSIONS:END -->
+
+<img src="assets/mission-log.svg" width="100%" alt="GitHub stats" />
+
+<img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution graph" />
+
+<br /><br />
+
+<a href="https://discord.gg/agione"><img src="assets/discord.svg" height="72" alt="Join my Discord" /></a>
+
+<img src="assets/footer.svg" width="100%" alt="End of transmission" />
+
+</div>
