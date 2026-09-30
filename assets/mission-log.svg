@@ -25,15 +25,15 @@
 <text class="mono" x="964" y="46" text-anchor="end" font-size="11" fill="#8e93cc">updated 2026-09-30</text>
 <g transform="translate(36 70)">
 <rect width="140" height="104" rx="12" fill="#ffffff" fill-opacity=".03" stroke="#2b2e66"/>
-<text class="sans" x="18" y="52" font-size="34" font-weight="800" fill="url(#txt)">—</text>
+<text class="sans" x="18" y="52" font-size="34" font-weight="800" fill="url(#txt)">110</text>
 <text class="mono" x="18" y="80" font-size="10" fill="#8e93cc" letter-spacing="1.5">CONTRIBUTIONS</text>
 </g><g transform="translate(188 70)">
 <rect width="140" height="104" rx="12" fill="#ffffff" fill-opacity=".03" stroke="#2b2e66"/>
-<text class="sans" x="18" y="52" font-size="34" font-weight="800" fill="url(#txt)">—</text>
+<text class="sans" x="18" y="52" font-size="34" font-weight="800" fill="url(#txt)">0d</text>
 <text class="mono" x="18" y="80" font-size="10" fill="#8e93cc" letter-spacing="1.5">CURRENT STREAK</text>
 </g><g transform="translate(340 70)">
 <rect width="140" height="104" rx="12" fill="#ffffff" fill-opacity=".03" stroke="#2b2e66"/>
-<text class="sans" x="18" y="52" font-size="34" font-weight="800" fill="url(#txt)">—</text>
+<text class="sans" x="18" y="52" font-size="34" font-weight="800" fill="url(#txt)">5d</text>
 <text class="mono" x="18" y="80" font-size="10" fill="#8e93cc" letter-spacing="1.5">LONGEST STREAK</text>
 </g><g transform="translate(492 70)">
 <rect width="140" height="104" rx="12" fill="#ffffff" fill-opacity=".03" stroke="#2b2e66"/>
@@ -46,8 +46,8 @@
   <g transform="translate(0 48)"><circle cx="5" cy="-4" r="5" fill="#a78bfa"/><text x="18" y="0" fill="#eef0ff">JavaScript</text><text x="300" y="0" text-anchor="end" fill="#8e93cc">63.7%</text></g><g transform="translate(0 70)"><circle cx="5" cy="-4" r="5" fill="#67e8f9"/><text x="18" y="0" fill="#eef0ff">HTML</text><text x="300" y="0" text-anchor="end" fill="#8e93cc">23.3%</text></g><g transform="translate(0 92)"><circle cx="5" cy="-4" r="5" fill="#f472b6"/><text x="18" y="0" fill="#eef0ff">CSS</text><text x="300" y="0" text-anchor="end" fill="#8e93cc">8.6%</text></g><g transform="translate(0 114)"><circle cx="5" cy="-4" r="5" fill="#fcd34d"/><text x="18" y="0" fill="#eef0ff">Other</text><text x="300" y="0" text-anchor="end" fill="#8e93cc">4.4%</text></g>
 </g>
 <text class="mono" x="36" y="204" font-size="10" fill="#8e93cc" letter-spacing="1.5">SIGNAL · WEEKLY CONTRIBUTIONS · LAST 12 MONTHS</text>
-<line x1="36" y1="258" x2="964" y2="258" stroke="#67e8f9" stroke-opacity=".4" stroke-dasharray="4 6"/>
-<text class="mono" x="500" y="248" text-anchor="middle" font-size="11" fill="#8e93cc">awaiting signal…</text>
+<path d="M36 248.4L53.8 258L71.7 258L89.5 258L107.4 258L125.2 258L143.1 258L160.9 252.3L178.8 258L196.6 258L214.5 258L232.3 258L250.2 258L268 258L285.8 258L303.7 258L321.5 258L339.4 258L357.2 256.1L375.1 250.3L392.9 250.3L410.8 242.7L428.6 242.7L446.5 225.5L464.3 258L482.2 258L500 258L517.8 258L535.7 258L553.5 258L571.4 258L589.2 258L607.1 258L624.9 258L642.8 256.1L660.6 242.7L678.5 258L696.3 258L714.2 254.2L732 256.1L749.8 258L767.7 258L785.5 258L803.4 258L821.2 258L839.1 258L856.9 258L874.8 250.3L892.6 258L910.5 256.1L928.3 238.9L946.2 214L964 238.9L964 258L36 258Z" fill="url(#area)"/>
+<path d="M36 248.4L53.8 258L71.7 258L89.5 258L107.4 258L125.2 258L143.1 258L160.9 252.3L178.8 258L196.6 258L214.5 258L232.3 258L250.2 258L268 258L285.8 258L303.7 258L321.5 258L339.4 258L357.2 256.1L375.1 250.3L392.9 250.3L410.8 242.7L428.6 242.7L446.5 225.5L464.3 258L482.2 258L500 258L517.8 258L535.7 258L553.5 258L571.4 258L589.2 258L607.1 258L624.9 258L642.8 256.1L660.6 242.7L678.5 258L696.3 258L714.2 254.2L732 256.1L749.8 258L767.7 258L785.5 258L803.4 258L821.2 258L839.1 258L856.9 258L874.8 250.3L892.6 258L910.5 256.1L928.3 238.9L946.2 214L964 238.9" stroke="#67e8f9" stroke-width="2" stroke-linejoin="round" pathLength="1" class="draw"/>
 </g>
 <rect x=".5" y=".5" width="999" height="279" rx="18" stroke="#2b2e66"/>
 </svg>
