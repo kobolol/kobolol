@@ -1,7 +1,7 @@
 // Builds all profile SVGs and updates the auto-generated parts of README.md.
 // Runs daily via .github/workflows/profile.yml; locally: `node scripts/generate.mjs`
 // (without GITHUB_TOKEN the contribution stats fall back to placeholders).
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import * as R from './render.mjs';
 
 const USER = process.env.USERNAME || 'kobolol';
@@ -159,10 +159,17 @@ async function main() {
   ]);
   const repos = allRepos.filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== USER.toLowerCase());
 
+  // Card files are named after the repo, not its position: GitHub caches images by URL, so
+  // positional names would show stale cards whenever the order of recent repos changes.
   const missions = repos.slice(0, MAX_MISSIONS);
+  const missionFile = (r) => `mission-${r.name.toLowerCase().replace(/[^a-z0-9-]+/g, '-')}.svg`;
+  const keep = new Set(missions.map(missionFile));
+  for (const f of await readdir(ASSETS)) {
+    if (f.startsWith('mission-') && f !== 'mission-log.svg' && !keep.has(f)) await rm(new URL(f, ASSETS));
+  }
   const cards = [];
   for (const [i, r] of missions.entries()) {
-    const file = `mission-${i + 1}.svg`;
+    const file = missionFile(r);
     await write(file, R.missionCard({
       name: r.name,
       description: r.description,
