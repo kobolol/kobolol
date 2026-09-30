@@ -3,11 +3,11 @@
 <img src="assets/banner.svg" width="100%" alt="Hi, I'm Jonas (@kobolol), apprentice software developer based in Germany" />
 
 <p>
-🐠 <b>Apprentice Software Developer</b> (Fachinformatiker für Anwendungsentwicklung) · 🇩🇪 Germany<br />
+🏔️ <b>Apprentice Software Developer</b> (Fachinformatiker für Anwendungsentwicklung) · 🇩🇪 Germany<br />
 Building backends with <b>C# / ASP.NET</b> and frontends with <b>Svelte / SvelteKit</b>.
 </p>
 
-<img src="assets/stack.svg" width="100%" alt="Tech reef: C#, ASP.NET, .NET, JavaScript, Svelte, SvelteKit" />
+<img src="assets/stack.svg" width="100%" alt="Tech stack as hot-air balloons: C#, ASP.NET, .NET, JavaScript, Svelte, SvelteKit" />
 
 <img src="assets/transmission.svg" width="100%" alt="Latest GitHub activity" />
 
@@ -22,6 +22,6 @@ Building backends with <b>C# / ASP.NET</b> and frontends with <b>Svelte / Svelte
 
 <a href="https://discord.gg/agione"><img src="assets/discord.svg" height="72" alt="Join my Discord" /></a>
 
-<img src="assets/footer.svg" width="100%" alt="End of dive" />
+<img src="assets/footer.svg" width="100%" alt="See you at the summit" />
 
 </div>

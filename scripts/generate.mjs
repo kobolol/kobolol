@@ -14,7 +14,7 @@ const PROFILE = {
   name: 'Jonas',
   handle: USER,
   location: 'based in Germany',
-  coords: '51°N 10°E',
+  coords: '47.42°N 10.99°E',
   taglines: [
     'apprentice software developer (FIAE)',
     'C# · ASP.NET · .NET on the backend',
