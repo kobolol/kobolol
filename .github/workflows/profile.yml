@@ -5,7 +5,7 @@ on:
     - cron: "0 2 * * *" # ~03:00/04:00 German time
   push:
     branches: [main]
-    paths-ignore: [assets/**, profile-3d-contrib/**]
+    paths-ignore: [assets/**]
   workflow_dispatch:
 
 permissions:
@@ -25,11 +25,6 @@ jobs:
           node-version: 22
       - name: Generate SVGs and README
         run: node scripts/generate.mjs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Generate 3D contribution city
-        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
