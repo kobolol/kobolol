@@ -12,6 +12,7 @@ Building backends with <b>C# / ASP.NET</b> and frontends with <b>Svelte / Svelte
 <img src="assets/transmission.svg" width="100%" alt="Latest GitHub activity" />
 
 <!-- MISSIONS:START -->
+<a href="https://github.com/kobolol/CTikTakToe"><img src="assets/mission-ctiktaktoe.svg" width="49%" alt="CTikTakToe" /></a>
 <a href="https://github.com/kobolol/ProfileApi"><img src="assets/mission-profileapi.svg" width="49%" alt="ProfileApi" /></a>
 <a href="https://github.com/kobolol/DoubleSnake"><img src="assets/mission-doublesnake.svg" width="49%" alt="DoubleSnake" /></a>
 <!-- MISSIONS:END -->
