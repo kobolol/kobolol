@@ -72,7 +72,7 @@
 <text class="mono" x="464" y="30" text-anchor="end" font-size="10" fill="#ffd27a" letter-spacing="2" filter="url(#shadow)">TRAIL 01</text>
 <text class="sans" x="28" y="52" font-size="23" font-weight="800" fill="#fff6ee" filter="url(#shadow)">CTikTakToe</text>
 <text class="sans" x="28" y="80" font-size="13.5" fill="#f6cfdc" filter="url(#shadow)">Simple Terminal TikTakToe in plain C</text>
-<g class="mono" font-size="12" fill="#fff6ee" filter="url(#shadow)"><circle cx="34" cy="148" r="5" fill="#a27bff"/><text x="45" y="152">C</text><text x="65.3" y="152" fill="#ffd27a">★ 0</text><text x="106.6" y="152" fill="#f6cfdc">last hike 2026-11-24</text></g>
+<g class="mono" font-size="12" fill="#fff6ee" filter="url(#shadow)"><circle cx="34" cy="148" r="5" fill="#a27bff"/><text x="45" y="152">C</text><text x="65.3" y="152" fill="#ffd27a">★ 0</text><text x="106.6" y="152" fill="#f6cfdc">last hike 2026-11-25</text></g>
 </g>
 <rect x=".5" y=".5" width="489" height="179" rx="14" stroke="#ffb3c7" stroke-opacity=".45"/>
 </svg>
